@@ -17,12 +17,12 @@ Education
   
 Skills
 ======
-* Omics data analysis
+* Omics, phylogenetics
 * Programming
   * Pyton
   * R
   * Bash
-* Skill 3
+* Statistics
 
 Publications
 ======
