@@ -11,29 +11,17 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-
-Work experience
-======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* B.S. in Biology, Université Côte d'Azur, 2020
+* M.S. in Bioinformatics, Université Côte d'Azur, 2022
+* Ph.D in Bioinformatics, Université de Perpignan Via Domitia, 2025 (expected)
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
+* Omics data analysis
+* Programming
+  * Pyton
+  * R
+  * Bash
 * Skill 3
 
 Publications
@@ -54,6 +42,10 @@ Teaching
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Service and leadership
+Outreach and service
 ======
-* Currently signed in to 43 different slack teams
+* IT manager of the PhD students association (UPVDoc) of the University of Perpignan (2022-2023)
+* Scientific mediation workshop "DNA in all its states" at the science festival of Perpignan (Oct. 2022)
+* DECLICS Ambassador : Scientific outreach for high school students (Nov. 2023)
+* Doctoral and post-doctoral students' representative on the Laboratory Council (2023-2024)
+* Doctoral students' representatives on the doctoral school board (2023-2024)
