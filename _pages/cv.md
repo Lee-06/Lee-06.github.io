@@ -14,15 +14,24 @@ Education
 * B.S. in Biology, Université Côte d'Azur, 2020
 * M.S. in Bioinformatics, Université Côte d'Azur, 2022
 * Ph.D in Bioinformatics, Université de Perpignan Via Domitia, 2025 (expected)
-  
+
+Work experience
+======
+* Internship at Centre Méditéranéen de Médecine Moléculaire (INSERM), 2021
+  * Bioinformatics analysis of leukemic cells by single-cell RNAseq approach
+  * Programming and use of packages under R and Python (Seurat, SCENIC, Monocle...)
+  * Mini-project of drug repositioning with CMap on SARS-CoV-2
+
+* Intership at Institut Sophia Antipolis (INRAE), 2022
+  * Study of structural variants in plant-parasitic nematode genomes
+  * Development of a pipeline and use of tools under SLURM cluster
+  * Programming and scripting under Bash mainly
+
 Skills
 ======
-* Omics, phylogenetics
-* Programming
-  * Pyton
-  * R
-  * Bash
-* Statistics
+* Omics, phylogenetics, imaging, structural biology
+* Programming (Python/R/Bash)
+* Statistics, data analysis, modeling
 
 Publications
 ======
