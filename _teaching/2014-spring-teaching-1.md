@@ -3,7 +3,7 @@ title: "Statistics tutoring"
 collection: teaching
 type: "Undergraduate tutoring"
 permalink: /teaching/2014-spring-teaching-1
-venue: "Université Côte d'Azur, Biology Bachelors"
+venue: "Université Côte d'Azur, Biology Bachelor"
 date: 2021
 location: "Nice, France"
 ---
