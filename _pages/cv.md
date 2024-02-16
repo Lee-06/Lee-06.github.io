@@ -17,7 +17,7 @@ Education
 
 Work experience
 ======
-* Internship at Centre Méditéranéen de Médecine Moléculaire (INSERM), 2021
+* Internship at Centre Méditérranéen de Médecine Moléculaire (INSERM), 2021
   * Bioinformatics analysis of leukemic cells by single-cell RNAseq approach
   * Programming and use of packages under R and Python (Seurat, SCENIC, Monocle...)
   * Mini-project of drug repositioning with CMap on SARS-CoV-2
