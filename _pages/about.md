@@ -4,10 +4,9 @@ title: "About me"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
-  - /about/
+  - /about/SRR6355715
   - /about.html
 ---
 
-This is Lee Mariault's home on the web!
-
-Lorem ipsum.
+Hello, my name is Lee Mariault and I am a PhD student currently working at the Laboratory of Genome and Development of Plants (LGDP) in Perpignan, France.
+My work consist in studying horizontal transfers events in plants by anaylzing hundreds of plant genomes !
