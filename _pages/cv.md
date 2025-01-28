@@ -54,7 +54,8 @@ Teaching
 Outreach and service
 ======
 * IT manager of the PhD students association (UPVDoc) of the University of Perpignan (2022-2023)
+* Doctoral and post-doctoral students' representative on the Laboratory Council (2023-2025)
+* Doctoral students' representatives on the doctoral school board (2023-2025)
 * Scientific mediation workshop "DNA in all its states" at the science festival of Perpignan (Oct. 2022)
 * DECLICS Ambassador : Scientific outreach for high school students (Nov. 2023)
-* Doctoral and post-doctoral students' representative on the Laboratory Council (2023-2024)
-* Doctoral students' representatives on the doctoral school board (2023-2024)
+* Scientific mediation workshop "PlantAdapt" at the science festival of Perpignan (Oct. 2024)
