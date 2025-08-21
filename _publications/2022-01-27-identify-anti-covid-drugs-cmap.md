@@ -9,7 +9,3 @@ paperurl: 'https://doi.org/10.1371/journal.pone.0262751'
 citation: 'Bonnet R, Mariault L, Peyron J-F (2022). &quot;Identification of potentially anti-COVID-19 active drugs using the connectivity MAP.&quot; <i>PLOS One</i>.'
 ---
 In this paper, we have identified drugs, using drug repositioning on C-MAP, that should have an effect against covid-19.
-
-[Download paper here](https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0262751&type=printable)
-
-Recommended citation: Bonnet R, Mariault L, Peyron J-F (2022). "Identification of potentially anti-COVID-19 active drugs using the connectivity MAP." <i>PLOS One</i>.
