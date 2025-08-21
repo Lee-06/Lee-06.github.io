@@ -6,6 +6,6 @@ excerpt: 'This paper is an exhaustive review on the mechanisms, detection and im
 date: 2025-08-20
 venue: 'The Plant Cell'
 paperurl: 'https://doi.org/10.1093/plcell/koaf195'
-citation: 'Bonnet R, Mariault L, Peyron J-F (2022). &quot;Identification of potentially anti-COVID-19 active drugs using the connectivity MAP.&quot; <i>PLOS One</i>.'
+citation: 'Mariault et al. (2025). &quot;Mechanisms, Detection, and Impact of Horizontal Gene Transfer in Plant Functional Evolution.&quot; <i>The PLant Cell</i>.'
 ---
-In this paper, we have identified drugs, using drug repositioning on C-MAP, that should have an effect against covid-19.
+In this review, we synthesize current knowledge on horizontal gene transfer (HGT) in plants, outlining its mechanisms, detection methods, and evolutionary significance. We highlight evidence of widespread plant–microbe and plant–plant HGT, discuss their impact on adaptation and functional diversification, and suggest future approaches to better capture and test these events.
