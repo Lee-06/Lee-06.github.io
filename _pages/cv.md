@@ -13,7 +13,7 @@ Work experience
 ======
 * Postdoctoral researcher at MIGEVEC (IRD), 2026-now
   * Deciphering the fetal immune response to *Plasmodium falciparum* through a large-scale transcriptomic approach.
-  * Multiomics workflow (epigenetic, single-cell RNAseq, spatial transcriptomics, proteomics, ...)
+  * Multiomics workflow (epigenetic, single-cell RNAseq, spatial transcriptomics, proteomics, metabolomics, ...)
 
 * PhD student at Laboratoire Génome et Développement des Plantes (CNRS), 2022-2025
   * Study of horizontal transfers involving plants
