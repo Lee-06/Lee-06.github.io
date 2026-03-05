@@ -7,10 +7,10 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Lee Mariault"
+title                    : "PhD"
 title_separator          : "-"
 name                     : &name "Lee Mariault"
-description              : &description "PhD student at Université de Perpignan Via Domitia"
+description              : &description "Bioinformatics Postdoctoral Researcher"
 url                      : https://Lee-06.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "Lee-06.github.io"
@@ -82,9 +82,9 @@ analytics:
 author:
   name             : "Lee Mariault"
   avatar           : "profile.png"
-  bio              : "PhD student at Université de Perpignan Via Domitia"
-  location         : "Perpignan, France"
-  employer         : "Laboratoire Génome et Développement des Plantes"
+  bio              : "Bioinformatics Postdoctoral Researcher"
+  location         : "Montpellier, France"
+  employer         : "MIGEVEC, IRD"
   pubmed           : "https://pubmed.ncbi.nlm.nih.gov/?term=lee+mariault&ac=no"
   googlescholar    : "https://scholar.google.com/citations?hl=fr&user=P37PQpEAAAAJ"
   email            :
