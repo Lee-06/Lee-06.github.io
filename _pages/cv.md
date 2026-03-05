@@ -9,28 +9,32 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
-* B.S. in Biology, Université Côte d'Azur, 2020
-* M.S. in Bioinformatics, Université Côte d'Azur, 2022
-* Ph.D in Bioinformatics, Université de Perpignan Via Domitia, 2025
-
 Work experience
 ======
-* Internship at Centre Méditérranéen de Médecine Moléculaire (INSERM), 2021
+* Postdoctoral researcher at MIGEVEC (IRD), 2026-now
+  * Deciphering the fetal immune response to *Plasmodium falciparum* through a large-scale transcriptomic approach.
+  * Multiomics workflow (epigenetic, single-cell RNAseq, spatial transcriptomics, metabolomics, ...)
+
+* PhD student at Laboratoire Génome et Développement des Plantes (CNRS), 2022-2025
+  * Study of horizontal transfers involving plants
+  * Development of a pipeline (Python, R, Bash) to compare, at the whole genome scale, thousands of genomes to identify and characterize inter- and intra- kingdom horizontal transfers of genes and transposable elements
+  * Supervision of interns, teaching courses, international conferences and scientific writing of article published in peer-reviewed journals
+  
+* Intern at Institut Sophia Antipolis (INRAE), 2022
+  * Study of structural variants in plant-parasitic nematode genomes
+  * Development of a pipeline and use of tools under SLURM cluster
+  * Programming and scripting under Bash mainly
+  
+* Intern at Centre Méditérranéen de Médecine Moléculaire (INSERM), 2021
   * Bioinformatics analysis of leukemic cells by single-cell RNAseq approach
   * Programming and use of packages under R and Python (Seurat, SCENIC, Monocle...)
   * Mini-project of drug repositioning with CMap on SARS-CoV-2 (co-first author)
 
-* Intership at Institut Sophia Antipolis (INRAE), 2022
-  * Study of structural variants in plant-parasitic nematode genomes
-  * Development of a pipeline and use of tools under SLURM cluster
-  * Programming and scripting under Bash mainly
- 
-* Doctoral research at Laboratoire Génome et Développement des Plantes (CNRS), 2022-2025
-  * Study of horizontal transfers involving plants
-  * Development of a pipeline (Python, R, Bash) to compare, at the whole genome scale, thousands of genomes to identify and characterize inter- and intra- kingdom horizontal transfers of genes and transposable elements
-  * Supervision of interns, teaching courses, international conferences and scientific writing of article published in peer-reviewed journals
+Education
+======
+* Ph.D in Bioinformatics, Université de Perpignan Via Domitia, 2025
+* M.S. in Bioinformatics, Université Côte d'Azur, 2022
+* B.S. in Biology, Université Côte d'Azur, 2020
 
 Skills
 ======
