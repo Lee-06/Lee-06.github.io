@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Lee Mariault"
+title                    : "Lee Mariault, PhD"
 title_separator          : "-"
 name                     : &name "Lee Mariault"
 description              : &description "Bioinformatics Postdoctoral Researcher"
