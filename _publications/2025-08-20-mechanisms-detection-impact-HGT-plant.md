@@ -2,6 +2,7 @@
 title: "Mechanisms, Detection, and Impact of Horizontal Gene Transfer in Plant Functional Evolution"
 collection: publications
 permalink: /publication/2025-08-20-mechanisms-detection-impact-HGT-plant
+authors: 'Mariault L, Puginier C, Keller J, El Baidouri M, Delaux P-M'
 excerpt: 'This paper is an exhaustive review on the mechanisms, detection and impacts of HGT in the plant kingdom.'
 date: 2025-08-20
 venue: 'The Plant Cell'

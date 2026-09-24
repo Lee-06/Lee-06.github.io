@@ -2,6 +2,7 @@
 title: "Identification of potentially anti-COVID-19 active drugs using the connectivity MAP"
 collection: publications
 permalink: /publication/2022-01-27-identify-anti-covid-drugs-cmap
+authors: 'Bonnet R, Mariault L, Peyron J-F'
 excerpt: 'This paper is about identifying anti-covid-19 drugs through drug repositioning with C-MAP.'
 date: 2022-01-27
 venue: 'PLOS One'
