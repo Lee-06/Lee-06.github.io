@@ -84,7 +84,7 @@ author:
   name             : "Lee Mariault"
   avatar           : "profile.png"
   bio              : "Bioinformatics Postdoctoral Researcher"
-  citation_name    : "Mariault L" # how your name appears in publication author lists (shown in bold)
+  citation_name    : "Lee Mariault" # how your name appears in publication author lists (shown in bold)
   location         : "Montpellier, France"
   employer         : "MIGEVEC, IRD"
   pubmed           : "https://pubmed.ncbi.nlm.nih.gov/?term=lee+mariault&ac=no"
