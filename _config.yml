@@ -20,6 +20,7 @@ words_per_minute         : 160
 future                   : true
 read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
 talkmap_link             : false #change to true to add link to talkmap on talks page
+banner                   : "banner.svg" # wide image shown under the header, placed in /images/ (or a full URL)
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
   disqus:
@@ -83,6 +84,7 @@ author:
   name             : "Lee Mariault"
   avatar           : "profile.png"
   bio              : "Bioinformatics Postdoctoral Researcher"
+  citation_name    : "Lee Mariault" # how your name appears in publication author lists (shown in bold)
   location         : "Montpellier, France"
   employer         : "MIGEVEC, IRD"
   pubmed           : "https://pubmed.ncbi.nlm.nih.gov/?term=lee+mariault&ac=no"

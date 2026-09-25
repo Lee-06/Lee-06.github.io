@@ -1,11 +1,15 @@
 ---
 layout: archive
 title: "Talks and presentations"
+subtitle: "Talks I have given at conferences and scientific meetings."
 permalink: /talks/
 author_profile: true
 ---
 
+{% include base_path %}
 
+<div class="ag-list">
 {% for post in site.talks reversed %}
   {% include archive-single-talk.html %}
 {% endfor %}
+</div>
