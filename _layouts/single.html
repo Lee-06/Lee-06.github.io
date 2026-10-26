@@ -25,7 +25,7 @@ layout: default
         </div>
       {% endif %}
     </div>
-    {% if content != "" %}<h2 class="ag-section-title">Summary</h2>{% endif %}
+    {% if content != "" %}<h2 class="ag-section-title">{{ page.content_heading | default: "Summary" }}</h2>{% endif %}
   {% elsif page.collection == 'teaching' %}
     <div class="ag-meta">
       <p class="ag-meta__muted">{{ page.type }}{% if page.venue %}, {{ page.venue }}{% endif %}{% if page.display_date %}, {{ page.display_date }}{% elsif page.date %}, {{ page.date | date: "%Y" }}{% endif %}</p>
