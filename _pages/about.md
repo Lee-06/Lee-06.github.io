@@ -18,6 +18,11 @@ In addition to my expertise in comparative genomics, I also gained experience in
 More about my work can be found in the [publications]({{ base_path }}/publications/) and [talks]({{ base_path }}/talks/) sections, and in my [CV]({{ base_path }}/cv/).
 
 <div class="ag-callout">
+  <div class="ag-callout__emoji" aria-hidden="true">📄</div>
+  <div><strong>New preprint (bioRxiv, Oct. 2026):</strong> <a href="{{ base_path }}/publication/2026-10-16-powdery-mildew-horizontal-transfer">Asymmetric inter-kingdom gene transfer and a horizontal transposon invasion in a powdery mildew fungus</a>.</div>
+</div>
+
+<div class="ag-callout">
   <div class="ag-callout__emoji" aria-hidden="true">🏆️</div>
   <div>My talk on <a href="{{ base_path }}/talks/2025-09-15-talk-4">cross-kingdom horizontal gene transfers between plant and fungal genomes</a> received the <strong>Best Short Talk Award</strong> (Vienna, 2025).</div>
 </div>
