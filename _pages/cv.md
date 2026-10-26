@@ -9,11 +9,6 @@ redirect_from:
 
 {% include base_path %}
 
-<p class="ag-btn-row ag-cv-downloads">
-  <a class="ag-btn" href="{{ base_path }}/files/CV_Mariault_academic_EN.pdf"><i class="fas fa-file-pdf" aria-hidden="true"></i> Download CV (English, PDF)</a>
-  <a class="ag-btn" href="{{ base_path }}/files/CV_Mariault_academique_FR.pdf"><i class="fas fa-file-pdf" aria-hidden="true"></i> Télécharger le CV (français, PDF)</a>
-</p>
-
 Work experience
 ======
 * Postdoctoral researcher at MIGEVEC (IRD), Mar. 2026 – present
