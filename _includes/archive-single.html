@@ -26,18 +26,19 @@
       {% else %}
         <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
       {% endif %}
+      {% if post.preprint %}<span class="ag-badge">Preprint</span>{% endif %}
     </p>
 
     {% if post.collection == 'publications' %}
-      {% if post.authors %}<p class="ag-item__authors">{% include publication-authors.html authors=post.authors %}</p>{% endif %}
-      <p class="ag-item__muted">{{ post.venue }}{% if post.date %}, {{ post.date | date: "%Y" }}{% endif %}</p>
+      {% if post.authors %}<p class="ag-item__authors">{% include publication-authors.html authors=post.authors note=post.author_note %}</p>{% endif %}
+      <p class="ag-item__muted">{% include publication-venue.html pub=post %}</p>
       <div class="ag-btn-row">
         {% if post.paperurl %}<a class="ag-btn" href="{{ post.paperurl }}" target="_blank" rel="noopener noreferrer">View paper</a>{% endif %}
         {% if post.dataurl %}<a class="ag-btn" href="{{ post.dataurl }}" target="_blank" rel="noopener noreferrer">Data</a>{% endif %}
         <a class="ag-btn" href="{{ base_path }}{{ post.url }}">Details</a>
       </div>
     {% elsif post.collection == 'teaching' %}
-      <p class="ag-item__muted">{{ post.type }}{% if post.venue %}, {{ post.venue }}{% endif %}{% if post.date %}, {{ post.date | date: "%Y" }}{% endif %}</p>
+      <p class="ag-item__muted">{{ post.type }}{% if post.venue %}, {{ post.venue }}{% endif %}{% if post.display_date %}, {{ post.display_date }}{% elsif post.date %}, {{ post.date | date: "%Y" }}{% endif %}</p>
       {% if post.excerpt %}<div class="ag-item__excerpt" itemprop="description">{{ post.excerpt | markdownify }}</div>{% endif %}
     {% else %}
       {% if post.date or post.read_time %}
