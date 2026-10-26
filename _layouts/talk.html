@@ -12,6 +12,7 @@ layout: default
 
   <div class="ag-meta">
     {% if page.type or page.talk_type %}<p class="ag-meta__kicker">{{ page.talk_type | default: page.type }}</p>{% endif %}
+    {% if page.award %}<p class="ag-meta__award"><span class="ag-badge ag-badge--award">🏆 {{ page.award }}</span></p>{% endif %}
     {% if page.venue %}<p>{{ page.venue }}{% if page.location %}, {{ page.location }}{% endif %}</p>{% endif %}
     {% assign talk_date = page.modified | default: page.date %}
     {% if talk_date %}<p class="ag-meta__muted"><time datetime="{{ talk_date | date_to_xmlschema }}">{{ talk_date | date: "%B %d, %Y" }}</time></p>{% endif %}
