@@ -1,9 +1,10 @@
-{% comment %}Renders an author list, highlighting the site author's name (site.author.citation_name).{% endcomment %}
+{% comment %}Renders an author list, highlighting the site author's name (site.author.citation_names, or site.author.citation_name), followed by an optional note such as "* co-first authors".{% endcomment %}
 {% assign authors = include.authors %}
 {% if authors %}
-  {% if site.author.citation_name %}
-    {% capture highlighted %}<b>{{ site.author.citation_name }}</b>{% endcapture %}
-    {% assign authors = authors | replace: site.author.citation_name, highlighted %}
-  {% endif %}
-  {{ authors }}
+  {% assign names = site.author.citation_names | default: site.author.citation_name %}
+  {% for name in names %}
+    {% capture highlighted %}<b>{{ name }}</b>{% endcapture %}
+    {% assign authors = authors | replace: name, highlighted %}
+  {% endfor %}
+  {{ authors }}{% if include.note %} <span class="ag-author-note">({{ include.note }})</span>{% endif %}
 {% endif %}

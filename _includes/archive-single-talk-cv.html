@@ -7,6 +7,6 @@
 {% endif %}
 
 <li class="ag-cv-item" itemscope itemtype="http://schema.org/CreativeWork">
-  <a class="ag-cv-item__title" href="{% if post.link %}{{ post.link }}{% else %}{{ base_path }}{{ post.url }}{% endif %}" itemprop="headline">{{ title }}</a>
+  <a class="ag-cv-item__title" href="{% if post.link %}{{ post.link }}{% else %}{{ base_path }}{{ post.url }}{% endif %}" itemprop="headline">{{ title }}</a>{% if post.award %} <span class="ag-badge ag-badge--award">🏆 {{ post.award }}</span>{% endif %}
   <div class="ag-cv-item__muted">{% if post.type %}{{ post.type }}, {% endif %}{{ post.venue }}{% if post.location %}, {{ post.location }}{% endif %}{% if post.date %}, {{ post.date | date: "%B %Y" }}{% endif %}</div>
 </li>

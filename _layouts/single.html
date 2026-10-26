@@ -13,8 +13,9 @@ layout: default
 
   {% if page.collection == 'publications' %}
     <div class="ag-meta">
-      {% if page.authors %}<p class="ag-meta__authors">{% include publication-authors.html authors=page.authors %}</p>{% endif %}
-      {% if page.venue %}<p class="ag-meta__muted">{{ page.venue }}{% if page.date %}, {{ page.date | date: "%Y" }}{% endif %}</p>{% endif %}
+      {% if page.preprint %}<p><span class="ag-badge ag-badge--first">Preprint</span></p>{% endif %}
+      {% if page.authors %}<p class="ag-meta__authors">{% include publication-authors.html authors=page.authors note=page.author_note %}</p>{% endif %}
+      {% if page.venue %}<p class="ag-meta__muted">{% include publication-venue.html pub=page %}</p>{% endif %}
       {% if page.paperurl %}<p class="ag-meta__small"><span class="ag-meta__muted">{% if page.paperurl contains "doi.org/" %}DOI:{% else %}Link:{% endif %}</span> <a href="{{ page.paperurl }}">{% if page.paperurl contains "doi.org/" %}{{ page.paperurl | split: "doi.org/" | last }}{% else %}{{ page.paperurl }}{% endif %}</a></p>{% endif %}
       {% if page.paperurl or page.slidesurl or page.dataurl %}
         <div class="ag-btn-row">
@@ -27,7 +28,7 @@ layout: default
     {% if content != "" %}<h2 class="ag-section-title">Summary</h2>{% endif %}
   {% elsif page.collection == 'teaching' %}
     <div class="ag-meta">
-      <p class="ag-meta__muted">{{ page.type }}{% if page.venue %}, {{ page.venue }}{% endif %}{% if page.date %}, {{ page.date | date: "%Y" }}{% endif %}</p>
+      <p class="ag-meta__muted">{{ page.type }}{% if page.venue %}, {{ page.venue }}{% endif %}{% if page.display_date %}, {{ page.display_date }}{% elsif page.date %}, {{ page.date | date: "%Y" }}{% endif %}</p>
     </div>
   {% elsif page.read_time or page.date %}
     <div class="ag-meta">

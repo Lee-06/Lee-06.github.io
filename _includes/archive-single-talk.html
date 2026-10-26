@@ -27,6 +27,7 @@
         <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
       {% endif %}
     </p>
+    {% if post.award %}<p class="ag-item__award"><span class="ag-badge ag-badge--award">🏆 {{ post.award }}</span></p>{% endif %}
     {% if post.venue %}<p class="ag-item__authors">{% if post.type %}{{ post.type }} &middot; {% endif %}{{ post.venue }}{% if post.location %}, {{ post.location }}{% endif %}</p>{% endif %}
     {% if post.date %}<p class="ag-item__muted"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time></p>{% endif %}
     <div class="ag-btn-row">
